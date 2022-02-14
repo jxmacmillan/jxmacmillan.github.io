@@ -5,16 +5,32 @@
 }
 html {
     background-image: url(./background.jpg);
+    background-repeat: repeat-y;
+    background-size:cover;
 }
-header {
-
+body {
+    width: 50%;
+    
+    border-style: dashed;
+    border-right: 25%;
+    background-image: url(./background.jpg);
+    background-size: 50%;
+    background-position-x: 50%;
 }
 .navbar {
-    sticky: 0px;
-    opacity: 0.75;
+    margin-top: sticky;
+    background-color: burlywood;
+    opacity: 75%;
+    margin-left:25%;
+    margin-right: 25%;
+    text-align:center;
 }
 .content {
-    border-style: b;
-    border-color:rgb(85, 0, 0);
-    
+    margin:auto;
+    text-align: center;
+    width: 50%;
+    background-size: 100%;
+    top: 5%;
+    position: relative;
+    vertical-align: top;
 }
