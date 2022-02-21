@@ -10,10 +10,10 @@ html {
 }
 body {
     width: 50%;
-    
     border-style: dashed;
     border-right: 25%;
-    background-image: url(./background.jpg);
+    background-color: blanchedalmond;
+    opacity: 90%;
     background-size: 50%;
     background-position-x: 50%;
 }
