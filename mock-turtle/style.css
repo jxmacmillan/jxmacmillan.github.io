@@ -3,34 +3,65 @@
     font-family: 'Arial';
     color: rgb(85, 0, 0);
 }
-html {
+body {
     background-image: url(./background.jpg);
     background-repeat: repeat-y;
     background-size:cover;
 }
-body {
+.header {
+    background-color: bisque;
+    opacity: 100%;
+    border-bottom: 1px solid rgb(85, 0, 0);
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+.content {
+    margin:auto;
+    text-align: center;
+    background-size: 100%;
     width: 50%;
-    border-style: dashed;
-    border-right: 25%;
-    background-color: blanchedalmond;
+    padding-top: 2.5%;
+    padding-bottom: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: burlywood;
     opacity: 90%;
+    position: relative;
+    vertical-align: top;
     background-size: 50%;
     background-position-x: 50%;
 }
 .navbar {
     margin-top: sticky;
-    background-color: burlywood;
     opacity: 75%;
     margin-left:25%;
     margin-right: 25%;
     text-align:center;
 }
-.content {
-    margin:auto;
-    text-align: center;
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(4, 62, 252);
+    font-family: 'Arial';
+}
+.exampleImg {
     width: 50%;
-    background-size: 100%;
-    top: 5%;
-    position: relative;
-    vertical-align: top;
+    height: 50%;
+    opacity: 100%;
+}
+ul {
+    display: inline-block;
+    text-align: left;
+}
+.exampleTable {
+    margin: auto;
+    text-align: center;
+    width:100%;
+}
+#nice-turtle {
+    width: 75%;
+    height: 75%;
 }
