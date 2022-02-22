@@ -9,20 +9,23 @@ body {
     background-size:cover;
 }
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     background-color: bisque;
     opacity: 100%;
     border-bottom: 1px solid rgb(85, 0, 0);
     padding-left: 0%;
-    padding-top: 0%;
+    padding-top: 2%;
     padding-right: 0%;
-    padding-bottom: 0%;
+    padding-bottom: 2%;
 }
 .content {
     margin:auto;
     text-align: center;
     background-size: 100%;
     width: 50%;
-    padding-top: 2.5%;
+    padding-top: 3%;
     padding-bottom: 100%;
     padding-left: 2%;
     padding-right: 2%;
@@ -40,7 +43,6 @@ body {
     margin-right: 25%;
     text-align:center;
 }
-
 .link {
     text-decoration: none;
     font-size: 18px;
@@ -64,4 +66,13 @@ ul {
 #nice-turtle {
     width: 75%;
     height: 75%;
+    display: float;
+}
+.ordered-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 100%;
+    border-radius: 10px;
 }
